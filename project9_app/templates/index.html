@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Knuth-Morris-Pratt algorithm web server</title>
+  </head>
+  <body>
+    <h1>This web server takes a short nucleotide sequence and returns 
+the number of occurences in the SARS-COV2 genome using the KNP 
+alogrithm</h1>
+    <form method="POST" action="/seq">
+      <label for="sequence">Enter a short nucleotide sequence:</label>
+      <input type="text" name="sequence" id="sequence">
+      <input type="submit" value="Process">
+    </form>
+  </body>
+</html>
